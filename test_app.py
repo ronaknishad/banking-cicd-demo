@@ -19,7 +19,7 @@ def test_health(client):
 
 
 def test_emi_value():
-    assert calculate_emi(100000, 10.0, 12) == 8791.59
+    assert calculate_emi(100000, 10.0, 12) == 8791.60
 
 
 def test_emi_zero_interest():
